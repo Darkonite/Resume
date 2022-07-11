@@ -1,0 +1,143 @@
+.flex-container {
+        display: flex;
+        background-color: rgba(51,51,51,255);
+        justify-content: space-around;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1vw;
+        color: white;
+        text-align: center;
+    }
+
+    .descriere {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255,255,255,255);
+        width:80%;
+    }
+
+    .container-dublu {
+        display: flex;
+        
+       
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background-color: rgba(191,191,191,255);
+       width:20%;
+       
+       padding-left: 15px;
+       padding-right:15px;
+    }
+
+    hr {
+        height: 2px;
+        background-color: black;
+        border: none;
+        width: 80%;
+    }
+
+    .center {
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+        background-color: rgba(153,153,153,255);
+resize:none;
+    }
+.nume{
+        text-align: center;
+        padding: 5px;
+        font-size:25px;
+        font-weight:bold;
+    }
+ .subflex{
+        display:flex;
+        text-align:left;
+        font-size:15px;
+        padding:30px;
+        flex-direction: column;
+    }
+.caption {
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .hr2 {
+        height: 2px;
+        background-color: black;
+        border: none;
+        width: 95%;
+    }
+
+    .caption2 {
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+
+    .dot-red {
+        height: 10px;
+        width: 10px;
+        text-align: right;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50%;
+        display: inline-block;
+        
+    }
+
+    .dot-gray {
+        height: 10px;
+        width: 10px;
+        background-color: gray;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: right;
+    }
+
+    .puncte {
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+        padding-right:25px;
+
+    }
+
+    .aliniere {
+        display: flex;
+        justify-content: space-between;
+        padding-left:20px;
+    }
+  .text{
+      text-align:left;
+      padding-left: 15px;
+      padding-right:15px;
+      padding-bottom: 1px;
+  }
+  .dot-blue {
+    height: 10px;
+    width: 10px;
+    text-align: right;
+    background-color: rgb(139, 255, 241);
+    border-radius: 50%;
+    display: inline-block;
+}
+.fa-star{
+    color:rgb(139, 255, 241);
+}
